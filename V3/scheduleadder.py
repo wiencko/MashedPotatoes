@@ -49,7 +49,8 @@ while True:
         addtotimehours = 12
         #time2[0] = str(12 + int(time2[0]))
         time2 = " ".join(time2)
-    time = "".join(time2.split("am"))   
+    time = "".join(time2.split("am"))  
+     
     #Get rid of extra spaces
     time = time.split(" ")
     time3 = []

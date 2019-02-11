@@ -63,6 +63,7 @@ def reschedule(pullfile):
 schedule.every().day.at("3:00").do(pullpage, dining_website)
 schedule.every().day.at("3:05").do(reschedule, schedules_list)
 
+
 while True:
     schedule.run_pending()
     time.sleep(30)
