@@ -16,3 +16,6 @@ textschedules.txt file then calls a one time text to the specified number. To ge
 delete the schedule line from textschedules.txt. An option in scheduleadder.py will be added in later updates/versions.
 
 Both versions require the mashedpotatoes2.py/mashedpotatoes3.py file to be left running for text alerts.
+
+ThreeFunctionDeploy is built with an AWS stack of lambda/sns/dynamodb, using sns to chain functions together and dynamodb to 
+store information for daily alerts.
