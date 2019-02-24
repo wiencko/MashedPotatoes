@@ -19,3 +19,8 @@ Both versions require the mashedpotatoes2.py/mashedpotatoes3.py file to be left 
 
 ThreeFunctionDeploy is built with an AWS stack of lambda/sns/dynamodb, using sns to chain functions together and dynamodb to 
 store information for daily alerts.
+
+FiveFunctionDeploy is the 10th and most recent iteration of 
+MashedPotatoes. It saves the dining hall menu in my DynamoDB
+so I can speed up check requests and decrease function
+runtime.
